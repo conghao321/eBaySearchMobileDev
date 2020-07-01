@@ -74,11 +74,21 @@ And after processed by server side, it will response the mobile-client side requ
 
 #### 2. Quick Start:
 
-Download the codes, and try it.
+a. Download the codes
 
-I already provide all materials to you, including the pictures, icons, and of course, source code.
 
-WHAT, you don't know how to run it? Please google it...
+
+b. Import the android files to your android studio projects
+
+##### 	Do not forget to add packages 
+
+
+
+c. I already provide all materials to you, including the pictures, icons, and of course, source code.
+
+
+
+#### WHAT??   you say that you don't know how to run it? Please google it...
 
 
 
