@@ -2,6 +2,8 @@
 
 #### An android application can enable users search  items directly what they want from eBay.
 
+##### The companion application with eBay ItemCard Search :https://github.com/conghao321/eBay-ItemCard-Search
+
 Developed it by Java language and Android Studio.
 
 It also provides a server-side to dispatch the Http request and Ajax call
