@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/totallayout"
+        android:layout_width="367dp"
+        android:layout_height="530dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/kewordlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:text="Keyword"
+                android:textColor="#4b6ee8"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="357dp" />
+
+            <LinearLayout
+                android:id="@+id/keywordinputlayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/keywordinput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter a keyword"
+                    android:inputType="text"
+                    android:selectAllOnFocus="false"
+                    android:theme="@style/EditTextTheme"
+
+                    />
+
+                <TextView
+                    android:id="@+id/errorView"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_weight="0"
+                    android:text="Please enter mandatory field"
+                    android:textColor="#C11111"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pricelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/priceRangeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Price Range"
+                android:textColor="#4b6ee8"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="163dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/price1"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Minimum Price"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textSize="18sp"
+                    android:theme="@style/EditTextTheme"
+                    tools:layout_conversion_absoluteHeight="42dp"
+
+                    tools:layout_conversion_absoluteWidth="156dp" />
+
+                <EditText
+                    android:id="@+id/price2"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Maximum Price"
+                    android:inputType="numberSigned|number|numberDecimal"
+                    android:textSize="18sp"
+                    android:theme="@style/EditTextTheme"
+                    tools:layout_conversion_absoluteHeight="42dp"
+                    tools:layout_conversion_absoluteWidth="156dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/priceError"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please enter valid price values"
+                android:textColor="#C11111"
+                android:textSize="14sp"
+                android:textStyle="italic"
+                android:visibility="gone"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="163dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/conditionslayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/conditionsTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Conditions"
+                android:textColor="#4b6ee8"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="36dp"
+                tools:layout_conversion_absoluteWidth="394dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/newItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="New"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    tools:layout_conversion_absoluteHeight="32dp"
+                    tools:layout_conversion_absoluteWidth="108dp" />
+
+                <CheckBox
+                    android:id="@+id/used"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="Used"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    tools:layout_conversion_absoluteHeight="34dp"
+                    tools:layout_conversion_absoluteWidth="103dp" />
+
+                <CheckBox
+                    android:id="@+id/unspec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="false"
+                    android:text="Unspecified"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="18sp"
+                    android:textStyle="italic"
+                    tools:layout_conversion_absoluteHeight="35dp"
+                    tools:layout_conversion_absoluteWidth="116dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/sortbylayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/sortbyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sort By"
+                android:textColor="#4b6ee8"
+                android:textStyle="bold"
+                tools:layout_conversion_absoluteHeight="0dp"
+                tools:layout_conversion_absoluteWidth="45dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sortby"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="16dp"
+                    android:entries="@array/sortByList"
+                    android:spinnerMode="dropdown"
+                    tools:layout_conversion_absoluteHeight="24dp"
+                    tools:layout_conversion_absoluteWidth="281dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buttonlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:textAlignment="center">
+
+                <Button
+                    android:id="@+id/search"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="32dp"
+                    android:background="#3f66e8"
+                    android:gravity="center"
+                    android:onClick="search"
+                    android:text="Search"
+                    android:textColor="#FFFFFFFF"
+                    tools:layout_conversion_absoluteHeight="47dp"
+                    tools:layout_conversion_absoluteWidth="118dp" />
+
+                <Button
+                    android:id="@+id/clear"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="16dp"
+                    android:background="#3f66e8"
+                    android:gravity="center"
+                    android:onClick="clear"
+                    android:text="Clear"
+                    android:textColor="#FFFFFF"
+                    tools:layout_conversion_absoluteHeight="47dp"
+                    tools:layout_conversion_absoluteWidth="106dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

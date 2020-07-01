@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ebays</string>
+    <string-array name="sortByList">
+        <item>Best Match</item>
+        <item>Price: Highest first</item>
+        <item>Price + Shipping: Highest first</item>
+        <item>Price + Shipping: Lowest first</item>
+    </string-array>
+</resources>

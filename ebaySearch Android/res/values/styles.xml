@@ -1,0 +1,43 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!--Due to the inheritance,we can find the system UI -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">#c9baeb</item>
+    </style>
+
+    <style name="EditTextTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">#c9baeb</item>
+        <item name="colorControlHighlight">#bab7af</item>
+    </style>
+
+    <style name="checkBoxStyle" parent="Base.Theme.AppCompat">
+        <item name="colorAccent">#bab7af</item>
+        <item name="android:textColorSecondary">#bab7af</item>
+    </style>
+
+
+
+
+    <!--Due to the inheritance,we can find the system UI, but for splash screen,
+     we need to color the system bar blue-->
+    <style name="AppTheme.Launcher"  parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/app_blue_eBay</item>
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+
+    <style name="SearchTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--Due to the inheritance,we can find the system UI -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="SearchBarTheme" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!--Due to the inheritance,we can find the system UI -->
+        <item name="colorControlNormal">#ffffff</item>
+    </style>
+</resources>

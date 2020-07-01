@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/itemCardLayout"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:layout_weight="1"
+    android:padding="1dp">
+    <!--
+    grid items for RecyclerView
+    -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#fbfbfb"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="4dp"
+        app:cardPreventCornerOverlap="true"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/ebay_default" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="78dp"
+                android:ellipsize="end"
+                android:fontFamily="sans-serif-black"
+                android:maxLines="3"
+                android:paddingLeft="8dp"
+                android:paddingTop="1dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="1dp"
+                android:text="ItemTitle\nddd\n sdfsdf"
+                android:textColor="#090909"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/shipingandtoprateLayout"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/shippingCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-black"
+                    android:maxLines="3"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="2dp"
+                    android:paddingRight="4dp"
+                    android:paddingBottom="1dp"
+                    android:text="100刀"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/topratedView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="8dp"
+                    android:text="Top Rated Listing"
+                    android:textStyle="bold"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/condition"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-black"
+                    android:maxWidth="100dp"
+                    android:maxLines="1"
+                    android:paddingLeft="8dp"
+                    android:paddingTop="1dp"
+                    android:paddingBottom="2dp"
+                    android:text="new"
+                    android:textSize="16sp"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/priceView"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:paddingRight="8dp"
+                    android:paddingBottom="2dp"
+                    android:text="100dao"
+                    android:textAlignment="viewEnd"
+                    android:textColor="#a3ad6a"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible"
+                    tools:visibility="visible" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
