@@ -1,7 +1,5 @@
-package usc.csci571.ebays;
 
 import androidx.lifecycle.ViewModel;
-
 import org.json.JSONArray;
 import org.json.JSONObject;
 

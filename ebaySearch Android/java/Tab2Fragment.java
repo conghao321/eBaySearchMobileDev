@@ -1,4 +1,4 @@
-package usc.csci571.ebays;
+
 
 import android.os.Bundle;
 import android.text.Html;

@@ -1,4 +1,3 @@
-package usc.csci571.ebays;
 
 import org.json.JSONException;
 import org.json.JSONObject;

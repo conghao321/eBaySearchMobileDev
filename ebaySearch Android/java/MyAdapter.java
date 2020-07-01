@@ -1,5 +1,3 @@
-package usc.csci571.ebays;
-
 import android.content.Intent;
 import android.content.Context;
 import android.text.Html;

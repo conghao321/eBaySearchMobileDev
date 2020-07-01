@@ -1,4 +1,4 @@
-package usc.csci571.ebays;
+
 
 public class Validator {
     public boolean keyWordRequired=false;

@@ -1,6 +1,3 @@
-package usc.csci571.ebays;
-
-
 public class InputData {
     protected String keyWord;
     protected double price1;

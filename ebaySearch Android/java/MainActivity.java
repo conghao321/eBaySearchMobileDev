@@ -1,7 +1,6 @@
-package usc.csci571.ebays;
+
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.*;
 import java.lang.*;
 

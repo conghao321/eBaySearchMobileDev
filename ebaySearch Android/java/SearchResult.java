@@ -1,5 +1,3 @@
-package usc.csci571.ebays;
-
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
