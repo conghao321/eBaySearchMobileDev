@@ -8,6 +8,10 @@ It also provides a server-side to dispatch the Http request and Ajax call
 
 
 
+#### <font color='red'> All the image assests, including pictures, logo, and icons,  belong to ebay, and all resources are only allowed to used by studying purpose, never bussniess. </font>
+
+
+
 ## Introduction:
 
 #### Client Side (Android):
