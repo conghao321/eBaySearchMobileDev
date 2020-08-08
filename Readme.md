@@ -1,8 +1,7 @@
-# eBay Catalog Search 
+#FastBuy Mobile APP (eBay Section)
 
-#### An android application can enable users search  items directly what they want from eBay.
+#### An android application can enable users search  items directly what they want online.
 
-##### The companion application with eBay ItemCard Search :https://github.com/conghao321/eBay-ItemCard-Search
 
 Developed it by Java language and Android Studio.
 
