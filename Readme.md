@@ -1,4 +1,4 @@
-#FastBuy Mobile APP (eBay Section)
+#FastChoose Mobile APP (eBay Section)
 
 #### An android application can enable users search  items directly what they want online.
 
