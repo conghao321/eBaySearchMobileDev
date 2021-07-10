@@ -1,17 +1,12 @@
-#FastChoose Mobile APP (eBay Section)
+# FastBuy Mobile APP (eBay Section)
 
-#### An android application can enable users search  items directly what they want online.
-
+#### An android application can enable users search items directly what they want online.
 
 Developed it by Java language and Android Studio.
 
 It also provides a server-side to dispatch the Http request and Ajax call
 
-
-
 #### <font color='red'> All the image assests, including pictures, logo, and icons,  belong to ebay, and all resources are only allowed to used by studying purpose, never bussniess. </font>
-
-
 
 ## Introduction:
 
@@ -19,19 +14,11 @@ It also provides a server-side to dispatch the Http request and Ajax call
 
 1.These are the major activities.
 
-
-
 <img src = 'https://ftp.bmp.ovh/imgs/2020/07/44e8d13d7714cb20.png' width=250/>
-
-
-
-
 
 <img src = 'https://ftp.bmp.ovh/imgs/2020/07/6549260ec153869e.png' width=250 />
 
 <img src = 'https://ftp.bmp.ovh/imgs/2020/07/612f20938910a811.png' width=250 />
-
-
 
 2.  It also supports more details, for example, splash screen, refresh, error validation.
 
@@ -41,21 +28,15 @@ It also provides a server-side to dispatch the Http request and Ajax call
 <img src = 'https://ftp.bmp.ovh/imgs/2020/07/96b0d25c457d66de.png' width=800/>
 <img src = 'https://ftp.bmp.ovh/imgs/2020/07/f3c43bc4b6276be4.png' width=800/>
 
-
-
 <hr>
 
 #### Server Side (NodeJS)
 
 I use NodeJs to receive mobile side's Ajax call and send request to eBay.
 
-Finally, the server side will receive  Json data from eBay. 
+Finally, the server side will receive Json data from eBay.
 
 And after processed by server side, it will response the mobile-client side required and formatted json data.
-
-
-
-
 
 ## Quick Start
 
@@ -67,37 +48,25 @@ And after processed by server side, it will response the mobile-client side requ
 
 ##### Android gradle:
 
-​    a. Volley: it helps us connect the android app with server side.
+​ a. Volley: it helps us connect the android app with server side.
 
-​	b. Glide :it is also powerful image downloading and caching library for Android. 
+​ b. Glide :it is also powerful image downloading and caching library for Android.
 
-​    c.  Picasso Picasso is a powerful image downloading and caching library for Android. 
+​ c. Picasso Picasso is a powerful image downloading and caching library for Android.
 
-##### NodeJs: express,  cors,  got.
-
-
+##### NodeJs: express, cors, got.
 
 #### 2. Quick Start:
 
 a. Download the codes
 
-
-
 b. Import the android files to your android studio projects
 
-##### 	Do not forget to add packages 
-
-
+##### Do not forget to add packages
 
 c. I already provide all materials to you, including the pictures, icons, and of course, source code.
 
-
-
-#### WHAT??   you say that you don't know how to run it? Please google it...
-
-
-
-
+#### WHAT?? you say that you don't know how to run it? Please google it...
 
 ## Deployment on GCP
 
